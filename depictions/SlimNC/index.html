@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>s1ris</title>
+    <title>SlimNC</title>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
     <base target="_blank"/>
     <script type="text/javascript" src="http://beta.tmnlsthrn.com/css/menes.js"></script>
@@ -9,21 +9,31 @@
 </head>
 
 <script type="text/javascript">
-    if (navigator.userAgent.search(/Cydia/) != 1)
+    if (navigator.userAgent.search(/Cydia/) != -1)
     document.write('<style type="text/css"> body { background: none !important; } .header { display: none !important; } </style>');
     </script>
 
 <body class="pinstripe">
     <panel>
 
-
-    <label>Repo</label>
-        <fieldset>
-            <div>
-                <p>Many, if not all, of my projects on my repo are open sourced. If you wish to install tweaks from my repo, click <a href="cydia://url/https://cydia.saurik.com/api/share#?package=com.s1ris.ICMPd&source=https://s1ris.github.io/repo">here</a> to add my source to Cydia.</p>
+        <fieldset class="iosver">
+            <div data-min-ios="9.0" data-max-ios="9.0" class="prerequisite">
+                <p>Compatible with iOS 9.</p>
             </div>
         </fieldset>
 
+    <label>Description</label>
+        <fieldset>
+            <div>
+                <p>SlimNC adds a pre-iOS 7 styled Notification Center back to your iPad. Nothing more, nothing less. Known issues range from jumpy animations to rotation being odd inside apps (SpringBoard works fine). This tweak has only been tested on iOS 9 by me, and I can't guarantee it will work on anything lower. I also have not tested any Notification Center tweaks alongside SlimNC yet, and I can guarantee some tweaks will cause visual issues. </p>
+                <p>Source code available <a href="https://github.com/s1ris/SlimNC">here</a>.</p>
+            </div>
+        </fieldset>
+
+    <label>Latest Changes</label>
+        <fieldset>
+            <a><div><div><label><p>Initial release.</p></label></div></div></a>
+        </fieldset>
         
     <label>Information</label>
         <fieldset>
